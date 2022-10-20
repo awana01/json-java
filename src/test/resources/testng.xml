@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Android Eq-Suite">
+    <test name="Eq-iOS Device Test" preserve-order="true">
+        <classes>
+            <class name="org.test1.MyTest1"/>
+            <class name="org.api.AsanaGetRequestTest01"/>
+            <class name="org.web.SimpleGoogleTests"/>
+        </classes>
+    </test>
+
+</suite>
