@@ -80,6 +80,14 @@ public class SimpleGoogleTests {
         Allure.addAttachment("Step Msg:",testTXT);
     }
 
+    @Test()
+    public void Test5(){
+        String testTXT = "simple non gui test 5";
+        System.out.println(testTXT);
+        saveTextLog(testTXT);
+        Allure.addAttachment("Step Msg:",testTXT);
+    }
+
     @AfterTest()
     public void finishTests(){
           driver.quit();
