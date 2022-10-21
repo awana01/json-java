@@ -48,7 +48,7 @@ public class SimpleGoogleTests {
 
     @AfterTest()
     public void finishTests(){
-          driver.close();
+          driver.quit();
     }
 
 
