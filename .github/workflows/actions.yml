@@ -1,5 +1,10 @@
-name: Build and Test
-on: [push]
+name: Continuous Integration Tests
+
+on:
+  push:
+    branches:
+      - '**'
+
 
 jobs:
   build:
