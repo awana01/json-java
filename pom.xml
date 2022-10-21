@@ -151,7 +151,7 @@
           </argLine>
           <systemPropertyVariables>
             <allure.results.directory>target/allure-results</allure.results.directory>
-            <allure.results.directory>allure-results</allure.results.directory>
+            
           </systemPropertyVariables>
         </configuration>
         <dependencies>
