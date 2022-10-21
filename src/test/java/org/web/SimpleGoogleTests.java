@@ -51,6 +51,11 @@ public class SimpleGoogleTests {
         System.out.println("simple non gui test 3");
     }
 
+    @Test()
+    public void Test4(){
+        System.out.println("simple non gui test 4");
+    }
+
     @AfterTest()
     public void finishTests(){
           driver.quit();
