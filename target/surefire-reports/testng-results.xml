@@ -2,72 +2,72 @@
 <testng-results skipped="0" failed="0" ignored="3" total="13" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Android Eq-Suite" duration-ms="51925" started-at="2022-10-21T12:18:20 IST" finished-at="2022-10-21T12:19:12 IST">
+  <suite name="Android Eq-Suite" duration-ms="66059" started-at="2022-10-21T13:09:57 IST" finished-at="2022-10-21T13:11:04 IST">
     <groups>
     </groups>
-    <test name="Eq-iOS Device Test" duration-ms="51925" started-at="2022-10-21T12:18:20 IST" finished-at="2022-10-21T12:19:12 IST">
+    <test name="Eq-iOS Device Test" duration-ms="66059" started-at="2022-10-21T13:09:57 IST" finished-at="2022-10-21T13:11:04 IST">
       <class name="org.api.AsanaGetRequestTest01">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.api.AsanaGetRequestTest01@3b7c58e7]" name="beforeTest" is-config="true" duration-ms="1329" started-at="2022-10-21T12:18:20 IST" finished-at="2022-10-21T12:18:21 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.api.AsanaGetRequestTest01@eed890d]" name="beforeTest" is-config="true" duration-ms="1110" started-at="2022-10-21T13:09:58 IST" finished-at="2022-10-21T13:09:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="GetAsanaUsersTest04()[pri:0, instance:org.api.AsanaGetRequestTest01@3b7c58e7]" name="GetAsanaUsersTest04" duration-ms="4161" started-at="2022-10-21T12:18:45 IST" finished-at="2022-10-21T12:18:49 IST">
+        <test-method status="PASS" signature="GetAsanaUsersTest04()[pri:0, instance:org.api.AsanaGetRequestTest01@eed890d]" name="GetAsanaUsersTest04" duration-ms="5675" started-at="2022-10-21T13:10:36 IST" finished-at="2022-10-21T13:10:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetAsanaUsersTest04 -->
-        <test-method status="PASS" signature="GetAsanaUsersUnderWorkspaceTest04()[pri:0, instance:org.api.AsanaGetRequestTest01@3b7c58e7]" name="GetAsanaUsersUnderWorkspaceTest04" duration-ms="1631" started-at="2022-10-21T12:18:49 IST" finished-at="2022-10-21T12:18:50 IST">
+        <test-method status="PASS" signature="GetAsanaUsersUnderWorkspaceTest04()[pri:0, instance:org.api.AsanaGetRequestTest01@eed890d]" name="GetAsanaUsersUnderWorkspaceTest04" duration-ms="1638" started-at="2022-10-21T13:10:42 IST" finished-at="2022-10-21T13:10:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetAsanaUsersUnderWorkspaceTest04 -->
-        <test-method status="PASS" signature="JsonPathExampleTest()[pri:0, instance:org.api.AsanaGetRequestTest01@3b7c58e7]" name="JsonPathExampleTest" duration-ms="5716" started-at="2022-10-21T12:18:50 IST" finished-at="2022-10-21T12:18:56 IST">
+        <test-method status="PASS" signature="JsonPathExampleTest()[pri:0, instance:org.api.AsanaGetRequestTest01@eed890d]" name="JsonPathExampleTest" duration-ms="5358" started-at="2022-10-21T13:10:43 IST" finished-at="2022-10-21T13:10:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- JsonPathExampleTest -->
-        <test-method status="PASS" signature="Test03()[pri:0, instance:org.api.AsanaGetRequestTest01@3b7c58e7]" name="Test03" duration-ms="2060" started-at="2022-10-21T12:18:56 IST" finished-at="2022-10-21T12:18:58 IST">
+        <test-method status="PASS" signature="Test03()[pri:0, instance:org.api.AsanaGetRequestTest01@eed890d]" name="Test03" duration-ms="1402" started-at="2022-10-21T13:10:49 IST" finished-at="2022-10-21T13:10:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test03 -->
-        <test-method status="PASS" signature="getAsanaWorkSpacesTest01()[pri:0, instance:org.api.AsanaGetRequestTest01@3b7c58e7]" name="getAsanaWorkSpacesTest01" duration-ms="1938" started-at="2022-10-21T12:18:58 IST" finished-at="2022-10-21T12:19:00 IST">
+        <test-method status="PASS" signature="getAsanaWorkSpacesTest01()[pri:0, instance:org.api.AsanaGetRequestTest01@eed890d]" name="getAsanaWorkSpacesTest01" duration-ms="1654" started-at="2022-10-21T13:10:50 IST" finished-at="2022-10-21T13:10:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAsanaWorkSpacesTest01 -->
-        <test-method status="PASS" signature="getTotalAsanaProjectsTest02()[pri:0, instance:org.api.AsanaGetRequestTest01@3b7c58e7]" name="getTotalAsanaProjectsTest02" duration-ms="1843" started-at="2022-10-21T12:19:00 IST" finished-at="2022-10-21T12:19:02 IST">
+        <test-method status="PASS" signature="getTotalAsanaProjectsTest02()[pri:0, instance:org.api.AsanaGetRequestTest01@eed890d]" name="getTotalAsanaProjectsTest02" duration-ms="3721" started-at="2022-10-21T13:10:52 IST" finished-at="2022-10-21T13:10:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTotalAsanaProjectsTest02 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.api.AsanaGetRequestTest01@3b7c58e7]" name="afterTest" is-config="true" duration-ms="16" started-at="2022-10-21T12:19:10 IST" finished-at="2022-10-21T12:19:10 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.api.AsanaGetRequestTest01@eed890d]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-10-21T13:11:02 IST" finished-at="2022-10-21T13:11:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- org.api.AsanaGetRequestTest01 -->
       <class name="org.web.SimpleGoogleTests">
-        <test-method status="PASS" signature="init()[pri:0, instance:org.web.SimpleGoogleTests@79627d27]" name="init" is-config="true" duration-ms="22232" started-at="2022-10-21T12:18:22 IST" finished-at="2022-10-21T12:18:44 IST">
+        <test-method status="PASS" signature="init()[pri:0, instance:org.web.SimpleGoogleTests@10f477e2]" name="init" is-config="true" duration-ms="35753" started-at="2022-10-21T13:09:59 IST" finished-at="2022-10-21T13:10:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="searchtest()[pri:0, instance:org.web.SimpleGoogleTests@79627d27]" name="searchtest" duration-ms="8034" started-at="2022-10-21T12:19:02 IST" finished-at="2022-10-21T12:19:10 IST">
+        <test-method status="PASS" signature="searchtest()[pri:0, instance:org.web.SimpleGoogleTests@10f477e2]" name="searchtest" duration-ms="6817" started-at="2022-10-21T13:10:55 IST" finished-at="2022-10-21T13:11:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchtest -->
-        <test-method status="PASS" signature="finishTests()[pri:0, instance:org.web.SimpleGoogleTests@79627d27]" name="finishTests" is-config="true" duration-ms="1692" started-at="2022-10-21T12:19:10 IST" finished-at="2022-10-21T12:19:12 IST">
+        <test-method status="PASS" signature="finishTests()[pri:0, instance:org.web.SimpleGoogleTests@10f477e2]" name="finishTests" is-config="true" duration-ms="1300" started-at="2022-10-21T13:11:02 IST" finished-at="2022-10-21T13:11:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishTests -->
       </class> <!-- org.web.SimpleGoogleTests -->
       <class name="org.test1.MyTest1">
-        <test-method status="PASS" signature="init()[pri:0, instance:org.test1.MyTest1@5b8572df]" name="init" is-config="true" duration-ms="78" started-at="2022-10-21T12:18:21 IST" finished-at="2022-10-21T12:18:22 IST">
+        <test-method status="PASS" signature="init()[pri:0, instance:org.test1.MyTest1@1f4f0fcc]" name="init" is-config="true" duration-ms="47" started-at="2022-10-21T13:09:59 IST" finished-at="2022-10-21T13:09:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="T1()[pri:1, instance:org.test1.MyTest1@5b8572df]" name="T1" duration-ms="16" started-at="2022-10-21T12:18:44 IST" finished-at="2022-10-21T12:18:44 IST">
+        <test-method status="PASS" signature="T1()[pri:1, instance:org.test1.MyTest1@1f4f0fcc]" name="T1" duration-ms="6" started-at="2022-10-21T13:10:35 IST" finished-at="2022-10-21T13:10:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T1 -->
-        <test-method status="PASS" signature="testWriteJsonFile()[pri:2, instance:org.test1.MyTest1@5b8572df]" name="testWriteJsonFile" duration-ms="605" started-at="2022-10-21T12:18:44 IST" finished-at="2022-10-21T12:18:45 IST">
+        <test-method status="PASS" signature="testWriteJsonFile()[pri:2, instance:org.test1.MyTest1@1f4f0fcc]" name="testWriteJsonFile" duration-ms="887" started-at="2022-10-21T13:10:35 IST" finished-at="2022-10-21T13:10:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWriteJsonFile -->
-        <test-method status="PASS" signature="testReadJsonFile()[pri:3, instance:org.test1.MyTest1@5b8572df]" name="testReadJsonFile" duration-ms="64" started-at="2022-10-21T12:18:45 IST" finished-at="2022-10-21T12:18:45 IST">
+        <test-method status="PASS" signature="testReadJsonFile()[pri:3, instance:org.test1.MyTest1@1f4f0fcc]" name="testReadJsonFile" duration-ms="144" started-at="2022-10-21T13:10:36 IST" finished-at="2022-10-21T13:10:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReadJsonFile -->
