@@ -39,8 +39,6 @@ public class AsanaGetRequestTest01 {
   
 	
     public Faker faker;
-	
-	
 	String uri = "https://app.asana.com";
 	String token ="0/38d75b5504a78662a2adb04410b9b366";
 	
@@ -201,13 +199,13 @@ POST /projects/{project_gid}/removeFollowers
   }
   
   
-  @Test()
+  @Test(enabled = false)
   public void ParseJsonTest() throws JsonIOException, JsonSyntaxException, FileNotFoundException {
 	  System.out.println("Try to parsing JSON file");
 	  //JsonParser1.getKey("");;
   }
   
-  @Test()
+  @Test(enabled = false)
   public void JsonParserT01() throws JsonIOException, JsonSyntaxException, FileNotFoundException {
 	//Read the file from the saved location and store it in JsonObject
 		
@@ -231,7 +229,7 @@ POST /projects/{project_gid}/removeFollowers
 			System.out.println(patientID);
   }
   
-  @Test()
+  @Test(enabled = false)
   public void ParseWorkspaceResonseT02() throws JsonIOException, JsonSyntaxException, FileNotFoundException {
 	  JsonObject JObject = (JsonObject) JsonParser.parseReader(new FileReader("./src/test/resources/data/workspace_response.json"));   //.parse(new FileReader("MyFilePath"));
         

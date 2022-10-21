@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 61.464 s <<< FAILURE! - in TestSuite
-org.api.AsanaGetRequestTest01.JsonParserT01  Time elapsed: 0.038 s  <<< FAILURE!
-java.io.FileNotFoundException: .\src\test\resources\data\samplejson.json (The system cannot find the path specified)
-	at org.api.AsanaGetRequestTest01.JsonParserT01(AsanaGetRequestTest01.java:214)
-
-org.api.AsanaGetRequestTest01.ParseWorkspaceResonseT02  Time elapsed: 0.003 s  <<< FAILURE!
-java.io.FileNotFoundException: .\src\test\resources\data\workspace_response.json (The system cannot find the path specified)
-	at org.api.AsanaGetRequestTest01.ParseWorkspaceResonseT02(AsanaGetRequestTest01.java:236)
-
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.88 s - in TestSuite

@@ -1,5 +1,4 @@
 org\test1\MyTest1.class
 org\api\AsanaGetRequestTest01.class
 org\api\BaseApi.class
-org\api\JsonPathTests.class
 org\web\SimpleGoogleTests.class
