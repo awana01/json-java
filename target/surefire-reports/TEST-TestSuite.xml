@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="70.192" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="55.052" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -69,34 +69,34 @@
     <property name="library.jansi.path" value="C:\PortableApps\apache-maven-3.8.4\lib\jansi-native"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="T1" classname="org.test1.MyTest1" time="0.02">
+  <testcase name="T1" classname="org.test1.MyTest1" time="0.08">
     <system-out><![CDATA[Sample test after long... time
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 52050
+Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 57029
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 21, 2022 1:27:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 21, 2022 1:33:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Oct 21, 2022 1:28:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 21, 2022 1:33:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 106
 ]]></system-err>
   </testcase>
-  <testcase name="testWriteJsonFile" classname="org.test1.MyTest1" time="0.685"/>
-  <testcase name="testReadJsonFile" classname="org.test1.MyTest1" time="0.039">
-    <system-out><![CDATA[[{"employee":{"firstName":"Jenee","lastName":"Kessler","website":"www.fermina-botsford.name"}},{"employee":{"firstName":"Dylan","lastName":"Schultz","website":"example.com"}}]
-Jenee
-Kessler
-www.fermina-botsford.name
-Dylan
+  <testcase name="testWriteJsonFile" classname="org.test1.MyTest1" time="0.542"/>
+  <testcase name="testReadJsonFile" classname="org.test1.MyTest1" time="0.024">
+    <system-out><![CDATA[[{"employee":{"firstName":"Tristan","lastName":"Daniel","website":"www.denver-cummerata.net"}},{"employee":{"firstName":"Bianca","lastName":"Schultz","website":"example.com"}}]
+Tristan
+Daniel
+www.denver-cummerata.net
+Bianca
 Schultz
 example.com
 ]]></system-out>
   </testcase>
-  <testcase name="GetAsanaUsersTest04" classname="org.api.AsanaGetRequestTest01" time="7.348">
+  <testcase name="GetAsanaUsersTest04" classname="org.api.AsanaGetRequestTest01" time="6.62">
     <system-out><![CDATA[Content Type: application/json; charset=UTF-8
 Total Users under WorkSpaces
 === Request Response ===== 
@@ -105,7 +105,7 @@ Total Users under WorkSpaces
 Status Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="GetAsanaUsersUnderWorkspaceTest04" classname="org.api.AsanaGetRequestTest01" time="1.246">
+  <testcase name="GetAsanaUsersUnderWorkspaceTest04" classname="org.api.AsanaGetRequestTest01" time="1.272">
     <system-out><![CDATA[Content Type: application/json; charset=UTF-8
 Total Users under Gold WorkSpaces
 === Request Response ===== 
@@ -114,13 +114,13 @@ Total Users under Gold WorkSpaces
 Status Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="JsonPathExampleTest" classname="org.api.AsanaGetRequestTest01" time="5.597">
+  <testcase name="JsonPathExampleTest" classname="org.api.AsanaGetRequestTest01" time="6.378">
     <system-out><![CDATA[Projects:200
 Projects Under Gold Workspace:{"data":[{"gid":"699759727930897","name":"MultiAPI","resource_type":"project"},{"gid":"1200165459764349","name":"Gold_1111","resource_type":"project"},{"gid":"1200910399320273","name":"Gold_8888","resource_type":"project"},{"gid":"1201334793580272","name":"Auto_11072021627","resource_type":"project"}]}
 Name is : [[gid:699759727930897, name:MultiAPI, resource_type:project], [gid:1200165459764349, name:Gold_1111, resource_type:project], [gid:1200910399320273, name:Gold_8888, resource_type:project], [gid:1201334793580272, name:Auto_11072021627, resource_type:project]]
 ]]></system-out>
   </testcase>
-  <testcase name="Test03" classname="org.api.AsanaGetRequestTest01" time="1.315">
+  <testcase name="Test03" classname="org.api.AsanaGetRequestTest01" time="1.287">
     <system-out><![CDATA[Content Type: application/json; charset=UTF-8
 Total Projects Under Gold WorkSpace
 === Request Response ===== 
@@ -129,7 +129,7 @@ Total Projects Under Gold WorkSpace
 Status Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="getAsanaWorkSpacesTest01" classname="org.api.AsanaGetRequestTest01" time="2.056">
+  <testcase name="getAsanaWorkSpacesTest01" classname="org.api.AsanaGetRequestTest01" time="1.653">
     <system-out><![CDATA[Content Type: application/json; charset=UTF-8
 Total WorkSpaces 
 === Request Response ===== 
@@ -138,7 +138,7 @@ Total WorkSpaces
 Status Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="getTotalAsanaProjectsTest02" classname="org.api.AsanaGetRequestTest01" time="1.591">
+  <testcase name="getTotalAsanaProjectsTest02" classname="org.api.AsanaGetRequestTest01" time="1.725">
     <system-out><![CDATA[Content Type: application/json; charset=UTF-8
 Total Projects 
 === Request Response ===== 
@@ -147,12 +147,12 @@ Total Projects
 Status Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="Test2" classname="org.web.SimpleGoogleTests" time="0">
+  <testcase name="Test2" classname="org.web.SimpleGoogleTests" time="0.003">
     <system-out><![CDATA[simple non gui test 2
 ]]></system-out>
   </testcase>
-  <testcase name="searchtest" classname="org.web.SimpleGoogleTests" time="8.875">
-    <system-out><![CDATA[About 5,67,00,000 results (0.40 seconds) 
+  <testcase name="searchtest" classname="org.web.SimpleGoogleTests" time="9.503">
+    <system-out><![CDATA[About 5,67,00,000 results (0.38 seconds) 
 ]]></system-out>
   </testcase>
 </testsuite>
