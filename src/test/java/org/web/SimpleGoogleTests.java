@@ -22,9 +22,9 @@ public class SimpleGoogleTests {
         WebDriverManager.chromedriver().setup();
 
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
+//        options.addArguments("--no-sandbox");
+//        options.addArguments("--disable-dev-shm-usage");
+//        options.addArguments("--headless");
 
         driver = new ChromeDriver(options);
         driver.get("https://www.google.com/");
@@ -39,6 +39,11 @@ public class SimpleGoogleTests {
         String resultTXT = driver.findElement(By.id("result-stats")).getText();
         System.out.println(resultTXT);
 
+    }
+
+    @Test()
+    public void Test2(){
+        System.out.println("simple non gui test 2");
     }
 
     @AfterTest()
