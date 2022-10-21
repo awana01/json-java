@@ -46,9 +46,14 @@ public class SimpleGoogleTests {
         System.out.println("simple non gui test 2");
     }
 
+    @Test()
+    public void Test3(){
+        System.out.println("simple non gui test 3");
+    }
+
     @AfterTest()
     public void finishTests(){
-          driver.close();
+          driver.quit();
     }
 
 
