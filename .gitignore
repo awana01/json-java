@@ -4,13 +4,7 @@
 #
 .idea
 
-# node.js
-#
-node_modules/
-npm-debug.log
-
-
 # custom
 *.log
-allure-results/
+
 
